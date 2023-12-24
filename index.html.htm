@@ -1,0 +1,448 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="google" content="notranslate">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+    <meta property="og:image" content="img/ogr.jpg"> 
+    <meta property="og:title" content="Vous avez 1 nouveau message de ADJA VIVIEN"> 
+    <meta property="og:description" content="Cliquez ici">
+    <meta property="og:site_name" content="fais ton vœu">
+    <link rel="stylesheet" href="page1_fichiers/animate.min.css">
+<title>Joyeux noël!</title>
+
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Boogaloo&display=swap');
+      body{
+        background: rgb(232, 188, 84);
+          margin:0;
+      }
+      .main{
+        background:#cece30;
+        max-width: 450px;
+        min-height: 200px;
+        margin: 0 auto;
+        text-align: center;
+        padding: 15px;
+        color: #999;
+        padding-bottom: 2px;
+        background-size: 100%;
+
+      }
+
+#username {
+     color: black;  /* Fallback: assume this color ON TOP of image */
+   background: url(img/name.gif);
+   -webkit-background-clip: text;
+   background-clip: text;
+   -webkit-text-fill-color: transparent;
+          animation: swing 4s infinite;
+            text-transform: uppercase;
+          margin-bottom: 5px;
+          font-size: 40px;
+          padding: 0 10px;
+    font-family: 'Boogaloo', cursive;
+} 
+
+#usernameb { color: black;  /* Fallback: assume this color ON TOP of image */
+   background: url(img/name.gif);
+   -webkit-background-clip: text;
+   background-clip: text;
+   -webkit-text-fill-color: transparent;
+          animation: swing 4s infinite;
+            text-transform: uppercase;
+          margin-bottom: 5px;
+          font-size: 20px;
+          padding: 0 10px;
+   font-family: 'Boogaloo', cursive;
+}
+      .wishMessage {
+        color: #fff;
+        font-size: 22px;
+        font-weight: bold;
+        margin-top: 17px;
+        text-shadow: 0px 0px 10px #afafaf;
+      
+      max-width:85%;}
+      .wishMessage p{
+        margin: 0.3em 0;
+      }
+
+       #demo {
+        font-size: 20px; color:green; -webkit-text-stroke-width: 87%;
+   -webkit-text-stroke-color: pink;
+         }
+
+
+  .m1{position:fixed;left:0.01%; width:auto;height:100%;top:1%;color:#000;}
+    .m2{position:fixed;right:0.01%; width:auto;height:100%;top:1%;color:#000;}
+    
+
+
+.enter-name input[type=name] {
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,rgba(255,94,247,1) 17.8%,rgba(2,245,255,1) 100.2% );
+
+	background-color: red;
+	color: black;
+   	border-radius: 10px;
+    	box-sizing: border-box;
+    	border-color: black;
+    	padding: 5px;
+    	position: fixed;
+    	left: 10px;
+    	bottom: 5px;
+    	height: 55px;
+    	width: 67%;
+    	text-align: center;
+    	font-size: 22px;
+    	display: inline-block;
+}
+
+.enter-name .btn {
+    background: linear-gradient(90deg,#f8ff00 0%,#3ad59f 100%);
+	border-radius: 10px;
+    	font-size: 21px;
+    	font-weight:700;
+    	padding: 4px;
+    	position: fixed;
+    	right: 2px;
+    	bottom: 5px;
+    	height: 55px;
+    	width: 27%;
+    	display: inline-block;
+    	color: black;
+    	background-color: #04ba1c;
+    	border-color: black;
+    	letter-spacing: .5px;
+    	transition: .2s ease-out;
+    	cursor: pointer;
+    	line-height: 36px;
+    	outline: 0;
+    	text-transform: uppercase;
+    	vertical-align: middle;
+    	text-decoration: none;
+    	animation-duration: 4s !important;
+}
+
+.enter-name input[type=name]::-webkit-input-placeholder { 
+	color: black;
+  	font-size: 18px;	
+}
+
+.enter-name input[type=name]::-moz-placeholder { 
+	color: black;
+  	font-size: 22px;
+}
+
+.enter-name input[type=name]:focus::-webkit-input-placeholder {
+    color: black;
+  	font-size: 22px;
+}
+
+.enter-name input[type=name]:focus::-moz-placeholder { 
+	color: black;
+  	font-size: 22px;
+}
+
+
+.leftcurtain{
+      width: 50%;
+      height: 100%;
+      top: 0px;
+      left: 0px;
+      position: absolute;
+      z-index: 2;
+    }
+     .rightcurtain{
+      width: 50%;
+      height: 100%;
+      right: 0px;
+      top: 0px;
+      position: absolute;
+      z-index: 3;
+    }
+    .rightcurtain img, .leftcurtain img{
+      width: 100%;
+      height: 100%;
+    }
+    .logo{
+      margin: 0px auto;
+      margin-top: 150px;
+    }
+    .rope{
+      position: absolute;
+      top: 5px;
+      left: 18%;
+      z-index: 4;
+      text-align: center;
+    } 
+.centered {
+    position: absolute;
+    top: 75%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+}
+a.rope
+{
+    text-decoration:none;
+}
+#loading {
+		-webkit-animation: rotation-star 3s infinite linear;
+		animation: rotation-star 3s infinite linear;
+}
+@keyframes rotation-star {
+		from {
+				-webkit-transform: rotate(0deg);
+				 transform: rotate(0deg);
+		}
+		to {
+				-webkit-transform: rotate(359deg);
+				 transform: rotate(359deg);
+		}
+}
+
+@keyframes rotation-star{
+    from {
+         -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+    }
+    to {
+         -webkit-transform: rotate(359deg);
+          transform: rotate(359deg);
+    }
+}
+</style>
+<body background=" rgb(232, 188, 84);">
+<script src="page1_fichiers/Sans%2520titre_003" async="" type="text/javascript"></script><script src="page1_fichiers/Sans%2520titre_003" async="" type="text/javascript"></script><script type="text/javascript" async="" src="page1_fichiers/analytics.js"></script><script src="page1_fichiers/jquery.min.js"></script>
+<script src="page1_fichiers/Slide.js" type="text/javascript"></script>
+<script type="text/javascript">
+$(document).ready(function() { $curtainopen = false; $(".rope").click(function(){ $(this).blur(); if ($curtainopen == false){ $(this).stop().animate({top: '-171%' }, {queue:false, duration:350, easing:'easeOutBounce'}); $(".leftcurtain").stop().animate({width:'1px'}, 2000 ); $(".rightcurtain").stop().animate({width:'1px'},2000 ); $curtainopen = true; }else{ $(this).stop().animate({top: '-40px' }, {queue:false, duration:350, easing:'easeOutBounce'}); document.write(''); $(".leftcurtain").stop().animate({width:'50%'}, 2000 ); $(".rightcurtain").stop().animate({width:'51%'}, 2000 ); $curtainopen = false; } return false; }); });
+</script>
+
+<script type="text/javascript" async="" src="page1_fichiers/js15_as.js"></script><meta http-equiv="origin-trial" content="As0hBNJ8h++fNYlkq8cTye2qDLyom8NddByiVytXGGD0YVE+2CEuTCpqXMDxdhOMILKoaiaYifwEvCRlJ/9GcQ8AAAB8eyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiV2ViVmlld1hSZXF1ZXN0ZWRXaXRoRGVwcmVjYXRpb24iLCJleHBpcnkiOjE3MTk1MzI3OTksImlzU3ViZG9tYWluIjp0cnVlfQ=="><meta http-equiv="origin-trial" content="AgRYsXo24ypxC89CJanC+JgEmraCCBebKl8ZmG7Tj5oJNx0cmH0NtNRZs3NB5ubhpbX/bIt7l2zJOSyO64NGmwMAAACCeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiV2ViVmlld1hSZXF1ZXN0ZWRXaXRoRGVwcmVjYXRpb24iLCJleHBpcnkiOjE3MTk1MzI3OTksImlzU3ViZG9tYWluIjp0cnVlfQ=="><meta http-equiv="origin-trial" content="A/ERL66fN363FkXxgDc6F1+ucRUkAhjEca9W3la6xaLnD2Y1lABsqmdaJmPNaUKPKVBRpyMKEhXYl7rSvrQw+AkAAACNeyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiRmxlZGdlQmlkZGluZ0FuZEF1Y3Rpb25TZXJ2ZXIiLCJleHBpcnkiOjE3MTkzNTk5OTksImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="A6OdGH3fVf4eKRDbXb4thXA4InNqDJDRhZ8U533U/roYjp4Yau0T3YSuc63vmAs/8ga1cD0E3A7LEq6AXk1uXgsAAACTeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiRmxlZGdlQmlkZGluZ0FuZEF1Y3Rpb25TZXJ2ZXIiLCJleHBpcnkiOjE3MTkzNTk5OTksImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><script src="page1_fichiers/f_002.txt" async=""></script><script async="" defer="defer" src="page1_fichiers/Sans%2520titre_002" id="dtspv_5rfc"></script><script async="" src="page1_fichiers/22847466737"></script><script src="page1_fichiers/dataBeacons.min.js"></script><script async="" src="page1_fichiers/AGSKWxWqGdMFTmILQX_Y6_Utto3poqoefYfMBv7c3yb9Zq9KaPAJrHisq4nwsgte"></script><script async="" src="page1_fichiers/AGSKWxVM45xneR3rqbNO5hLBSBlXXZz7j0KA6N2Rt4IcUZitngwGC526ufHQw-QY"></script><script async="" src="page1_fichiers/AGSKWxUsaMvUNn0Dii1BatUHZ5ZzPiUJax0EyahDfOUbha8-yQF_lTuN6Zig9qSd"></script><script src="page1_fichiers/Sans%2520titre_004"></script><script id="sovrn_standalone_beacon" src="page1_fichiers/sovrn_standalone_beacon.js"></script></head>
+<body style="background:rgb(210, 136, 52); background-size:auto;">
+<div class="leftcurtain"><img src="page1_fichiers/gate1.png"></div>
+<div class="rightcurtain"><img src="page1_fichiers/gate2.png"></div>
+<a class="rope" href="" onclick="PlaySound()">
+     
+<div style="font-size: 30px;text-shadow: 1px 1px 3px white, 1px 1px 3px white, -1px -1px 3px white, -1px -1px 3px white;color: red;font-weight: bold;"><br><b>toucher ceci<br></b></div> <img src="page1_fichiers/arrow.gif" height="auto" width="70px" style="animation: tada 0s infinite"><br>
+<img src="page1_fichiers/jinglebell.png" width="60%" height="auto" style="animation: tada 2s infinite;">
+
+</a>
+<marquee class="m1" behavior="scroll" direction="up" scrolldelay="0"> <br>
+  <p style="text-shadow: 2px 2px 10px black, 2px 2px 10px black, 2px 2px 10px red, 2px 2px 10px black;color:rgb(193, 193, 179)" ><b>
+    FLORENT</b><br/>
+  <img src="page1_fichiers/images%20(2).jpeg" height="100px" width="200px"><br><br>
+<img src="page1_fichiers/mt1.png" height="50px" width="50px"><br><br>
+<img src="page1_fichiers/mt2.png" height="50px" width="50px"><br><br>
+<img src="page1_fichiers/mt3.png" height="50px" width="50px"><br><br>
+<img src="page1_fichiers/mt4.png" height="50px" width="50px"><br><br>
+<img src="page1_fichiers/mt5.png" height="50px" width="50px"><br><br>
+<p style="text-shadow: 2px 2px 10px black, 2px 2px 10px black, 2px 2px 10px red, 2px 2px 10px black;color:rgb(202, 14, 148)" ><b>
+  FLORENT</b><br/>
+<img src="page1_fichiers/mt6.png" height="50px"  width="50px"><br><br>
+<img src="page1_fichiers/mt7.png" height="50px" width="50px"><br><br>
+<img src="page1_fichiers/mt8.png" height="50px"  width="50px"><br><br>
+<img src="page1_fichiers/mt9.png" height="50px"  width="50px"><br><br>
+<img src="page1_fichiers/mt10.png" height="50px"  width="50px"><br><br>
+<img src="page1_fichiers/téléchargement.jpeg" height="100px" width="200px"><br><br>
+<img src="page1_fichiers/mt1.png" height="50px"  width="50px"><br><br>
+<img src="page1_fichiers/mt2.png" height="50px"  width="50px"><br><br>
+<img src="page1_fichiers/mt3.png" height="50px"  width="50px"><br><br>
+<img src="page1_fichiers/mt4.png"height="50px"  width="50px"><br><br>
+<img src="page1_fichiers/mt5.png" height="50px" width="50px"><br><br>
+<p style="text-shadow: 2px 2px 10px black, 2px 2px 10px black, 2px 2px 10px red, 2px 2px 10px black;color:rgb(14, 224, 18)" ><b>
+  FLORENT</b><br/>
+<img src="page1_fichiers/mt6.png" height="50px"  width="50px"><br><br>
+<img src="page1_fichiers/mt7.png" height="50px"  width="50px"><br><br>
+<img src="page1_fichiers/mt8.png" height="50px"  width="50px"><br><br>
+<img src="page1_fichiers/mt9.png"height="50px"  width="50px"><br><br>
+<img src="page1_fichiers/mt10.png"height="50px"  width="50px"><br><br>
+<img src="page1_fichiers/téléchargement.an.jpg" height="100px" width="200px"><br><br>
+<p style="text-shadow: 2px 2px 10px black, 2px 2px 10px black, 2px 2px 10px red, 2px 2px 10px black;color:rgb(181, 19, 19)" ><b>
+  FLORENT</b><br/>
+</marquee>
+<marquee class="m2" behavior="scroll" direction="down" scrolldelay="0"><br>
+  <p style="text-shadow: 2px 2px 10px black, 2px 2px 10px black, 2px 2px 10px red, 2px 2px 10px black;color:rgb(27, 44, 226)" ><b>
+    FLORENT</b><br/>
+  <img src="page1_fichiers/bonannfr-5.gif.webp" height="100px" width="200px"><br><br>
+<img src="page1_fichiers/mt2.png" height="50px"  width="50px"><br><br>
+<img src="page1_fichiers/mt3.png" height="50px"  width="50px"><br><br>
+<img src="page1_fichiers/mt4.png" height="50px"  width="50px"><br><br>
+<img src="page1_fichiers/mt5.png" height="50px"  width="50px"><br><br>
+<p style="text-shadow: 1px 1px 3px black, 1px 1px 3px black, -1px -1px 3px red, -1px -1px 3px black;color:rgb(211, 86, 8)"><b>
+  FLORENT</b><br/>
+<img src="page1_fichiers/mt6.png"height="50px"  width="50px"><br><br>
+<img src="page1_fichiers/mt7.png" height="50px"  width="50px"><br><br>
+<img src="page1_fichiers/mt8.png" height="50px"  width="50px"><br><br>
+<img src="page1_fichiers/mt9.png" height="50px"  width="50px"><br><br>
+<img src="page1_fichiers/bonannfr-3.gif" height="100px" width="200px"><br><br>
+<img src="page1_fichiers/mt10.png" height="50px"  width="50px"><br><br>
+<img src="page1_fichiers/mt1.png" height="50px"  width="50px"><br><br>
+<img src="page1_fichiers/mt2.png"height="50px"  width="50px"><br><br>
+<img src="page1_fichiers/mt3.png" height="50px"  width="50px"><br><br>
+<img src="page1_fichiers/mt4.png"height="50px"  width="50px"><br><br>
+<img src="page1_fichiers/mt5.png" height="50px"  width="50px"><br><br>
+<p style="text-shadow: 2px 2px 10px black, 2px 2px 10px black, 2px 2px 10px red, 2px 2px 10px black;color:yellow" ><b>
+  FLORENT</b><br/>
+<img src="page1_fichiers/mt6.png" height="50px"  width="50px"><br><br>
+<img src="page1_fichiers/mt7.png" height="50px"  width="50px"><br><br>
+<img src="page1_fichiers/mt8.png" height="50px"  width="50px"><br><br>
+<img src="page1_fichiers/mt9.png" height="50px"  width="50px"><br><br>
+<img src="page1_fichiers/mt10.png" height="50px"  width="50px"><br><br>
+<img src="page1_fichiers/bonannfr-8.gif.webp" height="100px" width="200px"><br><br>
+<p style="text-shadow: 2px 2px 10px black, 2px 2px 10px black, 2px 2px 10px red, 2px 2px 10px black;color:rgb(44, 217, 229)" ><b>
+  FLORENT</b><br/>
+
+</marquee>
+<img src="page1_fichiers/mt9.png" height="50px" width="50px"><br><br>
+<div class="main">
+<center>
+<script async="" src="page1_fichiers/f.txt"></script>
+<div id="gpt-passback" data-google-query-id="CMqk1_76hoMDFVdZpAQdCj8FSg">
+  
+<div id="google_ads_iframe_/22847466737/ca-pub-97122S69079996523-tag/50-new_0__container__" style="border: 0pt;"><iframe id="google_ads_iframe_/22847466737/ca-pub-9712269079996523-tag/50-new_0" name="google_ads_iframe_/22847466737/ca-pub-9712269079996523-tag/50-new_0" title="3rd party ad content" width="320" height="100" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" style="border: 0px; vertical-align: bottom;" role="region" aria-label="Advertisement" tabindex="0" data-google-container-id="1" data-load-complete="true"></iframe></div></div> 
+<br>
+</center>
+<div style="animation: swing 4s infinite;">
+      <h1 style="background: url(img/name.gif);-webkit-text-fill-color: transparent; background-clip: text;" id="username"> 
+      FLORENT</h1>
+   </div>
+   
+   
+<img src="page1_fichiers/fr-wish.png" width="50%" height="auto" style="animation: pulse 1.0s infinite">
+
+<div style="font-size: 30px; font-weight: 850; color: green;">
+   <p id="demo">13<font color="Amaranth"> jours,</font> 15<font color="Citrine"> heures,</font> 32<font color="Amaranth"> minutes,<br></font> 52<font color="Citrine">  secondes</font> </p></div>
+   
+   
+   🎅🏼
+
+<img src="page1_fichiers/french-mc.png" width="87%" height="auto" style="animation: pulse 1.0s infinite"><br><br>
+
+<img style="width:45%;height:30%;" src="page1_fichiers/under1.gif">
+<img style="width:45%;height:30%;" src="page1_fichiers/under2.gif">
+<center>
+<div class="wishMessage" style="text-shadow: 1px 1px 3px yellow, 1px 1px 3px orange, -1px -1px 3px silver, -1px -1px 3px black;">
+<p style="text-shadow: 1px 1px 3px black, 1px 1px 3px black, -1px -1px 3px black, -1px -1px 3px black;color:#ff9933">
+Je vous souhaite la santé  🥂🥂🥂
+</p>
+<p style="text-shadow: 1px 1px 3px black, 1px 1px 3px black, -1px -1px 3px black, -1px -1px 3px black;color:white">
+La prospérité, la reuissite 🎉🎉🎉
+</p>
+<p style="text-shadow: 1px 1px 3px black, 1px 1px 3px black, -1px -1px 3px black, -1px -1px 3px black;color:yellow">
+beaucoup de bonheur, de joie🤩🤩🤩
+</p>
+<p style="text-shadow: 1px 1px 3px black, 1px 1px 3px black, -1px -1px 3px black, -1px -1px 3px red;color:cyan">
+  et baucoup de belles choses ✨✨✨
+</p>
+<p style="text-shadow: 1px 1px 3px black, 1px 1px 3px black, -1px -1px 3px black, -1px -1px 3px black;color:pink"> 
+  Que DIEU vous accompagne<br/> et réalise vos voeux<br/> dans cette nouvelle année. 💚💚💚
+</p>
+<br/>
+<p style="text-shadow: 1px 1px 3px black, 1px 1px 3px black, -1px -1px 3px red, -1px -1px 3px black;color:yellow"><b>
+Joyeux noël🎅🏼🎅🏼🎅🏼🎅🏼!!!
+</b></p>
+</div>
+<br>
+<center>
+<script async="" src="page1_fichiers/f.txt"></script>
+<div id="gpt-passback">
+  <script>
+    window.googletag = window.googletag || {cmd: []};
+    googletag.cmd.push(function() {
+    googletag.defineSlot('/22847466737/ca-pub-9712269079996523-tag/250wishing', [300, 250], 'gpt-passback').addService(googletag.pubads());
+    googletag.enableServices();
+    googletag.display('gpt-passback');
+    });
+  </script>
+</div></center>
+<br>
+
+<h1 id="usernameb">FLORENT</h1>
+<br><br><br>
+<br>
+
+<form method="POST" action="page1_fichiers\ready_data\page3.html.htm">
+	<div class="enter-name">
+		<input class="animated pulse infinite" type="name" required="" maxlength="50" name="n" placeholder="👉 Entrez votre nom..." >
+		<button class="btn animated shake infinite" type="submit"><span>👉 voir </span></button>
+	</div>
+</form>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+
+<audio id="audiocracker" src="page1_fichiers/Jingle-Bells.mp3" autostart="false"></audio>
+<script>
+    function PlaySound() {
+          var sound = document.getElementById("audiocracker");
+          sound.play()
+      }
+    </script>
+ 
+<script> 
+// Set the date we're counting down to
+var countDownDate = new Date("Dec 25, 2023 00:00:00").getTime();
+
+// Update the count down every 02 second
+var x = setInterval(function() {
+
+  // Get todays date and time
+  var now = new Date().getTime();
+
+  // Find the distance between now an the count down date
+  var distance = countDownDate - now;
+
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+  // Display the result in the element with id="demo"
+  document.getElementById("demo").innerHTML = days + "<font color='Amaranth'> jours,</font> " + hours + "<font color='Citrine'> heures,</font> "
+  + minutes + "<font color='Amaranth'> minutes,<br></font> " + seconds + "<font color='Citrine'>  secondes avant de</font> ";
+
+  // If the count down is finished, write some text 
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("demo").innerHTML = "";
+  }
+}, 1000);
+</script>
+<script type="text/javascript">var _Hasync= _Hasync|| [];
+_Hasync.push(['Histats.start', '1,4822568,4,0,0,0,00010000']);
+_Hasync.push(['Histats.fasi', '1']);
+_Hasync.push(['Histats.track_hits', '']);
+(function() {
+var hs = document.createElement('script'); hs.type = 'text/javascript'; hs.async = true;
+hs.src = ('//s10.histats.com/js15_as.js');
+(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(hs);
+})();</script>
+
+<!-- Google tag (gtag.js) -->
+<script async="" src="page1_fichiers/js"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-174471664-1');
+</script>
+  </center></div><script async="" type="text/javascript" src="page1_fichiers/0.htm"></script><img src="page1_fichiers/Sans%20titre.gif" width="0" height="0" style="display: none;"><script async="" src="page1_fichiers/Sans%20titre"></script><script src="page1_fichiers/tag.min.js" async="" defer="defer"></script><iframe src="page1_fichiers/container.htm" style="visibility: hidden; display: none;"></iframe><iframe style="display: none; width: 0px; height: 0px; border: medium; z-index: -1000; left: -1000px; top: -1000px;" name="googlefcPresent"></iframe><iframe name="__tcfapiLocator" src="page1_fichiers/a_006.htm" style="display: none; width: 0px; height: 0px; border: medium; z-index: -1000; left: -1000px; top: -1000px;"></iframe><iframe name="googlefcInactive" src="page1_fichiers/a_006.htm" style="display: none; width: 0px; height: 0px; border: medium; z-index: -1000; left: -1000px; top: -1000px;"></iframe><iframe name="googlefcLoaded" src="page1_fichiers/a_006.htm" style="display: none; width: 0px; height: 0px; border: medium; z-index: -1000; left: -1000px; top: -1000px;"></iframe><iframe src="page1_fichiers/aframe.htm" width="0" height="0" style="display: none;"></iframe><img src="page1_fichiers/merge"><img src="page1_fichiers/362358.gif"><iframe style="width: 1px; height: 1px; position: absolute; left: -99px; top: -99px;" src="page1_fichiers/Portal.htm" title="sovrn-sync-beacon-portal"></iframe><script async="" type="text/javascript" src="page1_fichiers/e.htm"></script><iframe id="sovrn_beacon" margin="0" padding="0" frameborder="0" width="1" height="1" scrolling="no" src="https://ce.lijit.com/beacon?informer=&amp;gdpr_consent=&amp;us_privacy=&amp;gpp=&amp;gpp_sid=" style="margin: 0px; padding: 0px; border: 0px; width: 1px; height: 1px; overflow: hidden;"></iframe><img src="page1_fichiers/Sans%20titre.gif" width="0" height="0" style="display: none;"><script async="" src="page1_fichiers/lt.min.js"></script><script async="" src="page1_fichiers/Sans%20titre"></script><script src="page1_fichiers/tag.min.js" async="" defer="defer"></script><iframe id="lt_3p_3825" src="page1_fichiers/lt.htm" title="empty" tabindex="-1" role="presentation" aria-hidden="true" style="border: 0px; width: 0px; height: 0px; display: block;"></iframe></body></html>
+</body>
